@@ -4,171 +4,70 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>王骏威课题组</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
-      line-height: 1.6;
-      color: #222;
-      background: #f7f7f7;
-    }
-
-    header {
-      background: #1f2937;
-      color: white;
-      padding: 48px 20px;
-      text-align: center;
-    }
-
-    nav {
-      background: white;
-      border-bottom: 1px solid #ddd;
-      text-align: center;
-      padding: 12px;
-      position: sticky;
-      top: 0;
-    }
-
-    nav a {
-      margin: 0 12px;
-      color: #1f2937;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    main {
-      max-width: 960px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-
-    section {
-      background: white;
-      margin-bottom: 24px;
-      padding: 28px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    }
-
-    h2 {
-      border-bottom: 2px solid #eee;
-      padding-bottom: 8px;
-    }
-
-    .member {
-      margin-bottom: 12px;
-    }
-
-    footer {
-      text-align: center;
-      color: #666;
-      padding: 24px;
-      font-size: 14px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header>
     <h1>王骏威课题组</h1>
-    <p>Research Group of DR.Wang</p>
+    <p>Research Group of Dr. Wang</p>
     <p>理学部 / 宁波东方理工大学</p>
     <p>Physical Sciences / Eastern Institute of Technology, Ningbo (EIT)</p>
   </header>
 
   <nav>
-    <a href="#about">简介</a>
-    <a href="#research">研究方向</a>
-    <a href="#people">团队成员</a>
-    <a href="#publications">论文成果</a>
-    <a href="#openings">招生招聘</a>
-    <a href="#contact">联系方式</a>
+    <a href="index.html" class="active">首页</a>
+    <a href="about.html">简介</a>
+    <a href="research.html">研究方向</a>
+    <a href="people.html">团队成员</a>
+    <a href="publications.html">论文成果</a>
+    <a href="openings.html">招生招聘</a>
+    <a href="contact.html">联系方式</a>
   </nav>
 
   <main>
-    <section id="about">
-      <h2>课题组简介</h2>
+    <section>
+      <h2>欢迎来到王骏威课题组</h2>
       <p>
-        揭示胶体尺度下，活性与非活性体系中复杂结构与功能的微观形成机制；研发面向实际应用的仿生可持续材料。主要研究方向为：
-        1，受限空间下的胶体自组装
-        2，细菌运动机制及其群体行为
-        3，基于乳液的动态可编程软材料
-        4，基于微生物的光子晶体材料
+        本网站用于展示课题组简介、研究方向、团队成员、论文成果、招生招聘和联系方式。
       </p>
     </section>
 
-    <section id="research">
-      <h2>研究方向</h2>
-      <ul>
-        <li>方向一：受限空间下的胶体自组装</li>
-        <li>方向二：细菌运动机制及其群体行为</li>
-        <li>方向三：基于乳液的动态可编程软材料</li>
-        <li>方向三：基于微生物的光子晶体材料</li>
-      </ul>
-    </section>
+    <div class="card-list">
+      <a class="card" href="about.html">
+        <h3>课题组简介</h3>
+        <p>了解课题组的研究背景与总体方向。</p>
+      </a>
 
-    <section id="people">
-      <h2>团队成员</h2>
-      <div class="member">
-        <img src="allimages/PI.jpg" alt="导师照片" style="width:160px; height:200px;">
+      <a class="card" href="research.html">
+        <h3>研究方向</h3>
+        <p>查看课题组的主要研究主题。</p>
+      </a>
 
-        <div>
-          
-          <strong>PI / 课题组负责人：</strong> 
-          <p>王骏威 教授</p>
-          <p>邮箱：jwwang@eitech.edu.cn</p>
-          <ul>
-           <li>2016/09 - 2021/09：博士，德国埃尔朗根纽伦堡大学，生物与化学工程学院</li>
-           <li>2013/09 - 2016/09：硕士，德国埃尔朗根纽伦堡大学，生物与化学工程学院</li>
-           <li>2009/09 - 2013/09：学士，同济大学，材料科学与工程学院</li>
-          </ul>
-          <p>工作经历：2021/09 - 2022/02: 博士后 德国埃尔朗根纽伦堡大学 生物与化学工程学院 
-                      2022/03 - 2023/10: 博士后 英国剑桥大学 化学系
-                      2023/10 - 2025/01: 课题组组长 德国马克斯普朗克所胶体与界面所</p>
-        </div>
-      </div>
+      <a class="card" href="people.html">
+        <h3>团队成员</h3>
+        <p>查看 PI、博士生、硕士生等成员信息。</p>
+      </a>
 
+      <a class="card" href="publications.html">
+        <h3>论文成果</h3>
+        <p>查看已发表论文与学术成果。</p>
+      </a>
 
+      <a class="card" href="openings.html">
+        <h3>招生招聘</h3>
+        <p>查看本科生、研究生、博士后招聘信息。</p>
+      </a>
 
-
-      
-      <div class="member">
-        <strong>博士生：</strong> 李四、王五
-      </div>
-      <div class="member">
-        <strong>硕士生：</strong> 赵六、钱七
-      </div>
-    </section>
-
-    <section id="publications">
-      <h2>论文成果</h2>
-      <ol>
-        <li>
-          Zhang S., Li S., Wang W. Title of paper. <em>Journal Name</em>, 2026.
-        </li>
-        <li>
-          Li S., Zhang S. Another paper title. <em>Conference / Journal</em>, 2025.
-        </li>
-      </ol>
-    </section>
-
-    <section id="openings">
-      <h2>招生招聘</h2>
-      <p>
-        本课题组长期欢迎对 XXX 方向感兴趣的本科生、硕士生、博士生和博士后加入。
-        请将简历发送至：your_email@university.edu.cn
-      </p>
-    </section>
-
-    <section id="contact">
-      <h2>联系方式</h2>
-      <p>地址：XXX大学 XXX学院 XXX楼</p>
-      <p>邮箱：your_email@university.edu.cn</p>
-    </section>
+      <a class="card" href="contact.html">
+        <h3>联系方式</h3>
+        <p>查看邮箱、地址等联系信息。</p>
+      </a>
+    </div>
   </main>
 
   <footer>
-    <p>© 2026 XXX课题组</p>
+    <p>© 2026 王骏威课题组</p>
     <p>本网站为课题组自建学术展示网站。</p>
   </footer>
 </body>
