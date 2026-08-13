@@ -1,7 +1,7 @@
 [
     {
       "title": "实验protocol",
-      "title_en": "Colloid",
+      "title_en": "protocol",
       "file": "colloid.md",
       "category": "基础概念",
       "keywords": [
@@ -13,7 +13,7 @@
   
     {
       "title": "实验问题记录",
-      "title_en": "Colloidal Self-Assembly",
+      "title_en": "quesiton",
       "file": "self-assembly.md",
       "category": "自组装",
       "keywords": [
@@ -25,7 +25,7 @@
   
     {
       "title": "待命名1",
-      "title_en": "Active Matter",
+      "title_en": "rename",
       "file": "active-matter.md",
       "category": "活性物质",
       "keywords": [
@@ -38,7 +38,7 @@
   
     {
       "title": "待命名2",
-      "title_en": "Emulsion",
+      "title_en": "rename",
       "file": "emulsion.md",
       "category": "软物质",
       "keywords": [
@@ -51,7 +51,7 @@
   
     {
       "title": "待命名3",
-      "title_en": "Photonic Crystal",
+      "title_en": "rename",
       "file": "photonic-crystal.md",
       "category": "光子材料",
       "keywords": [
