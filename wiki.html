@@ -1,1 +1,97 @@
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Wiki百科 - 王骏威课题组</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 用来解析 Markdown -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+  <h1>王骏威课题组</h1>
+  <p>Research Group of Dr. Wang</p>
+  <p>理学部 / 宁波东方理工大学</p>
+  <p>Physical Sciences / Eastern Institute of Technology, Ningbo (EIT)</p>
+</header>
+
+<nav>
+  <a href="index.html">首页</a>
+  <a href="about.html">简介</a>
+  <a href="research.html">研究方向</a>
+  <a href="people.html">团队成员</a>
+  <a href="publications.html">论文成果</a>
+  <a href="openings.html">招生招聘</a>
+  <a href="wiki.html" class="active">Wiki百科</a>
+</nav>
+
+
+<div class="wiki-container">
+
+  <!-- 左侧栏 -->
+  <aside class="wiki-sidebar">
+
+    <h2>课题组 Wiki</h2>
+
+    <input
+      type="text"
+      id="wiki-search"
+      placeholder="搜索词条..."
+    >
+
+    <ul id="wiki-list">
+      <!-- Javascript 自动生成 -->
+    </ul>
+
+  </aside>
+
+
+  <!-- Wiki正文 -->
+  <main class="wiki-content" id="wiki-content">
+
+    <h1>王骏威课题组 Wiki</h1>
+
+    <p>
+      欢迎进入课题组知识百科。
+    </p>
+
+    <p>
+      本 Wiki 用于整理胶体、自组装、活性物质、
+      软物质以及光子晶体等相关知识。
+    </p>
+
+    <h2>主要主题</h2>
+
+    <ul>
+      <li>胶体科学</li>
+      <li>自组装</li>
+      <li>Active Matter</li>
+      <li>乳液体系</li>
+      <li>光子晶体</li>
+    </ul>
+
+  </main>
+
+</div>
+
+
+<footer>
+  <p>© 2026 王骏威课题组</p>
+  <p>本网站为课题组自建学术展示网站。</p>
+</footer>
+
+
+<script src="js/wiki.js"></script>
+
+</body>
+
+</html>
